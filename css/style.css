@@ -54,3 +54,15 @@ header div ul li a{
     font-size: 1.2rem;
     padding-top: 20px;
 }
+/*************HISTORIQUE**************/
+.historique h1{
+    margin-bottom: 30px;
+}
+.bloc1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bloc1 div p{
+    padding-top: 20px;
+}
