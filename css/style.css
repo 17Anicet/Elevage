@@ -45,8 +45,12 @@ header div ul li a{
 .accueil-title{
     font-size: 2rem;
     padding-top: 180px;
-    padding-bottom: 30px;
+}
+.accueil{
+    height: 100vh;
 }
 .accueil div p{
-    font-size: 1.5rem;
+    width: 50%;
+    font-size: 1.2rem;
+    padding-top: 20px;
 }
