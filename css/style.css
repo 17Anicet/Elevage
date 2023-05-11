@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'WixMadeforDisplay-Regular';
+    src: url('WixMadeforDisplay-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-size: 16px;
+    background-color: black;
+    font-family: 'WixMadeforDisplay-Regular';
+}
+/****************HEADER*****************/
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 0px white;
+}
+header p img{
+    width: 30%;
+}
+header div ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+header div ul li a{
+    color: white;
+}
