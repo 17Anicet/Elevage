@@ -75,3 +75,20 @@ header div ul li a:hover{
 .bloc1 div p{
     padding-top: 20px;
 }
+/*************MISSION & VISION**************/
+.bloc2{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    gap: 40px;
+}
+.mission h2, .vision h2{
+    padding-bottom: 5px;
+    color: rgba(207, 184, 93, 0.963);
+}
+.mission h3, .vision h3{
+    width: 80px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgba(207, 184, 93, 0.963);
+}
