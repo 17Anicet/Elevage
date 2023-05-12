@@ -99,3 +99,26 @@ header div ul li a:hover{
     border-bottom: 3px solid rgba(207, 184, 93, 0.963);
 }
 /*************OBJECTIFS**************/
+.objectif{
+    margin-top: 40px;
+}
+.objectif h2{
+    padding-bottom: 10px;
+    color: rgba(207, 184, 93, 0.963);
+}
+.objectif h3{
+    width: 80px;
+    margin-bottom: 30px;
+    border: 2px solid rgba(207, 184, 93, 0.963);
+}
+.bloc3 div p span{
+    font-size: xx-large;
+    color: rgba(207, 184, 93, 0.963);
+}
+.bloc3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -70px;
+}
+/*************SERVICES**************/
