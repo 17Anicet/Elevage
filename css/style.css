@@ -1,6 +1,6 @@
 @font-face{
-    font-family: 'WixMadeforDisplay-Regular';
-    src: url('WixMadeforDisplay-Regular.ttf') format('truetype');
+    font-family: 'Cambay-Regular';
+    src: url('Cambay-Regular.ttf') format('truetype');
 }
 *{
     margin: 0;
@@ -14,7 +14,7 @@ body{
     font-size: 16px;
     color: white;
     background-color: black;
-    font-family: 'WixMadeforDisplay-Regular';
+    font-family: 'Cambay-Regular';
 }
 /****************HEADER*****************/
 header{
@@ -43,6 +43,7 @@ header div ul li a{
     padding: 30px;
 }
 .accueil-title{
+    color: rgba(207, 184, 93, 0.963);
     font-size: 2rem;
     padding-top: 180px;
 }
