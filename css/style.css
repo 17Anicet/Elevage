@@ -58,6 +58,10 @@ header div ul li a:hover{
     width: 100%;
     height: 100vh;
 }
+.accueil div{
+    width: 55%;
+    font-size: 1.2rem;
+}
 .bloc-a{
     width: 95%;
 }
@@ -67,16 +71,15 @@ header div ul li a:hover{
 
 /*************HISTORIQUE**************/
 .historique h2{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: rgba(207, 184, 93, 0.963);
 }
 .bloc1{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .bloc1 div p{
-    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /*************MISSION & VISION**************/
 .bloc2{
