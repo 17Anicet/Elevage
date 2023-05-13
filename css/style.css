@@ -131,3 +131,21 @@ header div ul li a:hover{
     margin-bottom: 30px;
     border-bottom: 3px solid rgba(207, 184, 93, 0.963);
 }
+.bloc-display{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.bloc4 div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.images{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
