@@ -176,3 +176,49 @@ header div ul li a:hover{
     object-fit: cover;
     border-radius: 15px;
 }
+/*************FOOTER**************/
+footer{
+    padding: 30px;
+}
+footer h4{
+    color: rgba(207, 184, 93, 0.963);
+}
+.location div h4,.contact div h4, .email div h4{
+    border-bottom: 2px solid rgba(207, 184, 93, 0.963);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.bloc-general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo p img{
+    width: 100px;
+}
+.location p img, .contact p img, .email p img,.media p img{
+    width: 25px;
+    color: white;
+}
+.media div a img{
+    width: 20px;
+}
+.location div, .email div, .contact div, .media div{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.media div{
+    gap: 28px;
+    margin-top: -15px;
+}
+footer a{
+    font-size: 12px;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: rgba(207, 184, 93, 0.963);
+}
