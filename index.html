@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAFARM</title>
 </head>
@@ -97,16 +99,20 @@
         <div class="produit">
             <h2>Nos produits</h2>
             <h3></h3>
-            <div class="slider swiper mySwiper">
-                <div class="images-items swiper-wrapper">
-                    <div class="images swiper-slide"><img src="Images/banane.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/hybride.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/lapins.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/legumes.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/canards.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/porcs.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/riz.jpg" alt=""></div>
-                    <div class="images swiper-slide"><img src="Images/Mais-culture.jpg" alt=""></div>
+            <div class="container">
+                <div class="slider swiper mySwiper">
+                    <div class="images-items swiper-wrapper">
+                        <div class="image swiper-slide"><img src="Images/banane.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/hybride.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/lapins.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/legumes.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/canards.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/porcs.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/riz.jpg" alt=""></div>
+                        <div class="image swiper-slide"><img src="Images/Mais-culture.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </div>
@@ -114,5 +120,19 @@
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="css/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 </html>
