@@ -109,7 +109,7 @@ header div ul li a:hover{
 .objectif h3{
     width: 80px;
     margin-bottom: 30px;
-    border: 2px solid rgba(207, 184, 93, 0.963);
+    border-bottom: 3px solid rgba(207, 184, 93, 0.963);
 }
 .bloc3 div p span{
     font-size: xx-large;
@@ -122,3 +122,12 @@ header div ul li a:hover{
     margin-top: -70px;
 }
 /*************SERVICES**************/
+.service h2{
+    padding-bottom: 10px;
+    color: rgba(207, 184, 93, 0.963);
+}
+.service h3{
+    width: 80px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgba(207, 184, 93, 0.963);
+}
