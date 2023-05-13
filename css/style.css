@@ -199,9 +199,8 @@ footer a{
 .logo p img{
     width: 100px;
 }
-.location p img, .contact p img, .email p img,.media p img{
+.media p img{
     width: 25px;
-    color: white;
 }
 .media div a img{
     width: 20px;
