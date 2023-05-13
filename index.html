@@ -99,21 +99,19 @@
         <div class="produit">
             <h2>Nos produits</h2>
             <h3></h3>
-            <div class="container">
-                <div class="slider swiper mySwiper">
-                    <div class="images-items swiper-wrapper">
-                        <div class="image swiper-slide"><img src="Images/banane.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/hybride.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/lapins.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/legumes.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/canards.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/porcs.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/riz.jpg" alt=""></div>
-                        <div class="image swiper-slide"><img src="Images/Mais-culture.jpg" alt=""></div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+            <div class="slider swiper mySwiper">
+                <div class="images-items swiper-wrapper">
+                    <div class="image swiper-slide"><img src="Images/banane.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/hybride.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/lapins.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/legumes.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/canards.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/porcs.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/riz.jpg" alt=""></div>
+                    <div class="image swiper-slide"><img src="Images/Mais-culture.jpg" alt=""></div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
@@ -125,13 +123,29 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
+        slidesPerGroup: 1,
         loop: true,
+        fade: true,
+        grubCursor: true,
+        loopFillGroupWithBlank: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
       });
     </script>
 </body>
