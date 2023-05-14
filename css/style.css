@@ -58,7 +58,7 @@ header .blocks1 .blocks2 a:hover{
 .nav-bar-link{
     position: absolute;
     width: 100%;
-    top: 68px;
+    top: 78px;
     right: 0;
     margin-right: -200%;
     display: flex;
@@ -270,6 +270,14 @@ footer a{
     }
 }
 @media all and (max-width: 658px){
+    header{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header p img{
+        padding-top: 8px;
+        width: 60px;
+    }
     .accueil div{
         font-size: 1rem;
     }
