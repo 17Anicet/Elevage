@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +46,8 @@
                 <p>Nous sommes une entreprise de l'espoir dans toute l'Afrique à travers nos activités et dans notre domaine d'intervention, dont l'élevage des bétails, l'agriculture, l'éducation des nos enfants et l'encadrement de la jeunesse.</p>
             </div>
         </div>
-        <div id="accueil" class="historique">
+        <div id="accueil" class="historique" data-aos="fade-up"
+        data-aos-duration="2000">
             <h2>Qui sommes-nous ?</h2>
             <div class="bloc1">
                 <div>
@@ -55,7 +58,8 @@
                 </div>
             </div>
         </div>
-        <div id="mission" class="bloc2">
+        <div id="mission" class="bloc2" data-aos="fade-up"
+        data-aos-duration="2000">
             <div class="mission">
                 <h2>Notre mission</h2>
                 <h3></h3>
@@ -67,7 +71,8 @@
                 <p>Notre vision est d'etre un modèle dans l'utilisation des ressources disponibles pour réduire et éradiquer la faim et la pauvreté à travers notre apport dans certains secteurs comme l'agriculture, l'élevage, l'encadrement de notre jeunesse, l'éducation de nos enfants, apprentissage des arts, couture, et divers métiers pour aider à l'avancement de notre société.</p>
             </div>
         </div>
-        <div class="objectif">
+        <div class="objectif" data-aos="fade-up"
+        data-aos-duration="2000">
             <h2>Notre Objectifs</h2>
             <h3></h3>
             <div class="bloc3">
@@ -79,7 +84,8 @@
                 </div>
             </div>
         </div>
-        <div id="service" class="service">
+        <div id="service" class="service" data-aos="fade-up"
+        data-aos-duration="2000">
             <h2>Nos services</h2>
             <h3></h3>
             <div class="bloc-display">
@@ -109,7 +115,8 @@
                 </div>
             </div>
         </div>
-        <div id="produit" class="produit">
+        <div id="produit" class="produit" data-aos="fade-up"
+        data-aos-duration="2000">
             <h2>Nos produits</h2>
             <h3></h3>
             <div class="slider swiper mySwiper">
@@ -227,6 +234,10 @@
                 behaviour: 'smooth',
             })
         })
+    </script>
+
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>
