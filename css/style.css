@@ -37,15 +37,15 @@ header{
 header p img{
     width: 70px;
 }
-header div ul{
+header .blocks1{
     display: flex;
     flex-direction: row;
     gap: 40px;
 }
-header div ul li a{
+header .blocks1 li a{
     color: white;
 }
-header div ul li a:hover{
+header .blocks1 .blocks2 a:hover{
     transition: 1.5s;
     color: rgba(207, 184, 93, 0.963);
 }
@@ -65,7 +65,7 @@ header div ul li a:hover{
     flex-direction: column;
     font-weight: bolder;
     transition: 0.8s ease-in-out;
-    background-color: rgb(3, 7, 30);
+    background-color: rgb(1, 26, 45);
     box-shadow: 0px 0px 3px 0px white;
 }
 .nav-bar-link ul li{
