@@ -205,6 +205,19 @@
       },
       });
     </script>
+
+    <script>
+        const image = document.querySelector(".nav-bar-images");
+        const lists = document.querySelector(".nav-bar-link");
+
+        image.addEventListener('click', () =>{
+        image.classList.toggle('menu');
+        lists.classList.toggle('menu');
+        })
+    </script>
+
+
+
     <script>
         const scroll = document.querySelector('.scroll');
         scroll.addEventListener('click', () =>{

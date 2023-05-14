@@ -49,6 +49,33 @@ header div ul li a:hover{
     transition: 1.5s;
     color: rgba(207, 184, 93, 0.963);
 }
+.nav-bar-images{
+    display: none;
+}
+.menu-image, .close{
+    width: 30px;
+}
+.nav-bar-link{
+    position: absolute;
+    width: 100%;
+    top: 68px;
+    right: 0;
+    margin-right: -200%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    transition: 0.8s ease-in-out;
+    background-color: rgb(3, 7, 30);
+    box-shadow: 0px 0px 3px 0px white;
+}
+.nav-bar-link ul li{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid white;
+}
+.nav-bar-link ul li a{
+    color: white;
+}
 /***************ACCUEIL****************/
 .content{
     padding: 30px;
@@ -249,6 +276,28 @@ footer a{
     }
     .picture{
         width: 100%;
+    }
+    header .blocks1{
+        display: none;
+    }
+    .nav-bar-images{
+        display: initial;
+        cursor: pointer;
+    }
+    .menu-image{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .menu .menu-image{
+        display: none;
+    }
+    .menu .close{
+        display: initial;
+    }
+    .menu{
+        margin-right: 0;
     }
 }
 @media all and (max-width: 470px){
