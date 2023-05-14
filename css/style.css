@@ -270,6 +270,9 @@ footer a{
     }
 }
 @media all and (max-width: 658px){
+    .accueil div{
+        font-size: 1rem;
+    }
     .content{
         padding: 15px;
     }
