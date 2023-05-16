@@ -166,7 +166,7 @@ header .blocks1 .blocks2 a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     column-gap: 15px;
 }
 .images{
