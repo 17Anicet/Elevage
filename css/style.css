@@ -194,6 +194,7 @@ header .blocks1 .blocks2 a:hover{
 }
 .image-items,.image{
     height: 100%;
+    border-radius: 15px;
 }
 .image img{
     width: 100%;
