@@ -92,8 +92,6 @@ header .blocks1 .blocks2 a:hover{
     width: 55%;
     height: 100vh;
     font-size: 1.2rem;
-    display: grid;
-    justify-items: start;
 }
 /*************HISTORIQUE**************/
 .historique h2{
