@@ -282,6 +282,9 @@ footer a{
     .accueil div{
         font-size: 1rem;
     }
+    .accueil-title{
+        font-size: 1.8rem;
+    }
     .content{
         padding: 15px;
     }
