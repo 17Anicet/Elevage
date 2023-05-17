@@ -86,12 +86,13 @@ header .blocks1 .blocks2 a:hover{
 .accueil-title{
     color: rgba(207, 184, 93, 0.963);
     font-size: 2rem;
-    padding-top: 280px;
 }
 .accueil div{
     width: 55%;
     height: 100vh;
     font-size: 1.2rem;
+    display: grid;
+    align-content: center;
 }
 /*************HISTORIQUE**************/
 .historique h2{
