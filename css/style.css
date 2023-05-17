@@ -23,7 +23,7 @@ body{
 /****************HEADER*****************/
 header{
     width: 100%;
-    display: none;
+    display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 40px;
