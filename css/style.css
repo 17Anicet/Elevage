@@ -39,8 +39,7 @@ header p img{
 }
 header .blocks1{
     display: flex;
-    flex-direction: row;
-    gap: 40px;
+    column-gap: 40px;
 }
 header .blocks1 li a{
     color: white;
@@ -113,7 +112,7 @@ header .blocks1 .blocks2 a:hover{
     display: flex;
     flex-direction: row;
     text-align: justify;
-    gap: 40px;
+    column-gap: 40px;
 }
 .mission h2, .vision h2{
     padding-bottom: 5px;
@@ -236,7 +235,8 @@ footer a{
     font-size: 16px;
 }
 .media div{
-    gap: 20px;
+    display: flex;
+    column-gap: 20px;
 }
 .scroll{
     position: fixed;
