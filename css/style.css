@@ -116,7 +116,12 @@ header .blocks1 .blocks2 a:hover{
     display: flex;
     flex-direction: row;
     text-align: justify;
-    column-gap: 40px;
+}
+.mission{
+    margin-right: 20px;
+}
+.vision{
+    margin-left: 20px;
 }
 .mission h2, .vision h2{
     padding-bottom: 5px;
