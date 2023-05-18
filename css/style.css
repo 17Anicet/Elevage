@@ -247,7 +247,7 @@ footer a{
     display: flex;
 }
 .media div a{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 .scroll{
     position: fixed;
@@ -278,6 +278,10 @@ footer a{
         display: flex;
         flex-direction: column;
         gap: 0;
+    }
+    .vision{
+        margin-top: 70px;
+        margin-left: 0;
     }
 }
 @media all and (max-width: 658px){
