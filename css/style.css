@@ -167,14 +167,18 @@ header .blocks1 .blocks2 a:hover{
 .bloc-display{
     display: flex;
     flex-direction: row;
-    gap: 30px;
 }
-.bloc4 div{
+.bloc4 div,.bloc5 div{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-bottom: 20px;
-    column-gap: 15px;
+}
+.bloc4{
+    margin-right: 15px;
+}
+.bloc5{
+    margin-left: 15px;
 }
 .images{
     width: 120px;
@@ -281,6 +285,12 @@ footer a{
     }
     .vision{
         margin-top: 70px;
+        margin-left: 0;
+    }
+    .bloc4,.mission{
+        margin-right: 0;
+    }
+    .bloc5{
         margin-left: 0;
     }
 }
