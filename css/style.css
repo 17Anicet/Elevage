@@ -39,7 +39,11 @@ header p img{
 }
 header .blocks1{
     display: flex;
-    column-gap: 40px;
+    flex-direction: row;
+}
+header .blocks1 .blocks2{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 header .blocks1 li a{
     color: white;
