@@ -178,6 +178,7 @@ header .blocks1 .blocks2 a:hover{
     flex-direction: row;
     align-items: center;
     padding-bottom: 20px;
+    gap: 10px;
 }
 .bloc4{
     margin-right: 15px;
