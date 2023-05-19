@@ -242,9 +242,8 @@ footer a{
 }
 .media div{
     display: flex;
-}
-.media div a{
-    gap: 25px;
+    flex-direction: row;
+    gap: 20px;
 }
 .scroll{
     position: fixed;
