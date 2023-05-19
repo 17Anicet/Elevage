@@ -40,10 +40,7 @@ header p img{
 header .blocks1{
     display: flex;
     flex-direction: row;
-}
-header .blocks1 .blocks2{
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px;
 }
 header .blocks1 li a{
     color: white;
@@ -121,12 +118,7 @@ header .blocks1 .blocks2 a:hover{
     display: flex;
     flex-direction: row;
     text-align: justify;
-}
-.mission{
-    margin-right: 20px;
-}
-.vision{
-    margin-left: 20px;
+    gap: 30px;
 }
 .mission h2, .vision h2{
     padding-bottom: 5px;
@@ -172,6 +164,7 @@ header .blocks1 .blocks2 a:hover{
 .bloc-display{
     display: flex;
     flex-direction: row;
+    gap: 60px;
 }
 .bloc4 div,.bloc5 div{
     display: flex;
@@ -179,12 +172,6 @@ header .blocks1 .blocks2 a:hover{
     align-items: center;
     padding-bottom: 20px;
     gap: 10px;
-}
-.bloc4{
-    margin-right: 15px;
-}
-.bloc5{
-    margin-left: 15px;
 }
 .images{
     width: 120px;
