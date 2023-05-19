@@ -280,12 +280,6 @@ footer a{
         margin-top: 70px;
         margin-left: 0;
     }
-    .bloc4,.mission{
-        margin-right: 0;
-    }
-    .bloc5{
-        margin-left: 0;
-    }
 }
 @media all and (max-width: 658px){
     header{
