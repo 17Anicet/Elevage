@@ -245,6 +245,10 @@ footer a{
     flex-direction: row;
     gap: 20px;
 }
+.media div a:hover{
+    opacity: 0.5;
+    transition: 1.5s;
+}
 .scroll{
     position: fixed;
     right: 8px;
