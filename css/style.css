@@ -183,14 +183,31 @@ header .blocks1 .blocks2 a:hover{
 .team{
     margin-top: 70px;
 }
+.team p img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.team h4{
+    color: rgba(207, 184, 93, 0.963);
+}
 .team h2{
+    text-align: center;
     padding-bottom: 10px;
     color: rgba(207, 184, 93, 0.963);
 }
 .team h3{
     width: 80px;
+    margin: auto;
     margin-bottom: 30px;
     border-bottom: 3px solid rgba(207, 184, 93, 0.963);
+}
+.bloc6{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
 }
 /*************PRODUITS**************/
 .produit h2{
