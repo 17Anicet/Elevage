@@ -179,6 +179,19 @@ header .blocks1 .blocks2 a:hover{
     border-radius: 50%;
     object-fit: cover;
 }
+/*************OUR TEAM**************/
+.team{
+    margin-top: 70px;
+}
+.team h2{
+    padding-bottom: 10px;
+    color: rgba(207, 184, 93, 0.963);
+}
+.team h3{
+    width: 80px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgba(207, 184, 93, 0.963);
+}
 /*************PRODUITS**************/
 .produit h2{
     text-align: center;
