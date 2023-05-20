@@ -174,8 +174,8 @@ header .blocks1 .blocks2 a:hover{
     gap: 10px;
 }
 .images{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -184,8 +184,8 @@ header .blocks1 .blocks2 a:hover{
     margin-top: 70px;
 }
 .team p img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -216,9 +216,13 @@ header .blocks1 .blocks2 a:hover{
 .bloc-two{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
 }
 /*************PRODUITS**************/
+.produit{
+    margin-top: 70px;
+}
 .produit h2{
     text-align: center;
     padding-bottom: 10px;
