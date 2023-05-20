@@ -184,8 +184,8 @@ header .blocks1 .blocks2 a:hover{
     margin-top: 70px;
 }
 .team p img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -203,11 +203,20 @@ header .blocks1 .blocks2 a:hover{
     margin-bottom: 30px;
     border-bottom: 3px solid rgba(207, 184, 93, 0.963);
 }
+.all-team{
+    display: grid;
+    justify-content: center;
+}
 .bloc6{
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: center;
+}
+.bloc-two{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
 }
 /*************PRODUITS**************/
 .produit h2{
